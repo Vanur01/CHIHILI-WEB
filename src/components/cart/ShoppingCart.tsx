@@ -235,7 +235,9 @@ const ShoppingCart = () => {
               </div>
 
               {/* Checkout Button - Same but smaller */}
-              <button onClick={handleCheckout} className="w-full bg-primary1 text-white py-2 sm:py-4 hover:bg-primary1/90 font-medium text-sm sm:text-lg tracking-wide cursor-pointer shadow-md sm:shadow-lg font-lato">
+              <button onClick={handleCheckout} 
+              
+                className="w-full mt-6 bg-primary1 hover:bg-primary2 text-white font-medium py-3 px-6 transition-colors cursor-pointer">
                 Check-out
               </button>
             </div>

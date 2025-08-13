@@ -534,7 +534,7 @@ const AddressPage = () => {
       <button
         type="button"
         onClick={handleSubmit}
-        className="w-full bg-red-800 text-white py-4 px-6 font-medium text-lg hover:bg-red-900 transition-colors font-lato"
+                className="w-full mt-6 bg-primary1 hover:bg-primary2 text-white font-medium py-3 px-6 transition-colors cursor-pointer"
       >
         Proceed to Pay
       </button>

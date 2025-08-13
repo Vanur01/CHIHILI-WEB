@@ -304,7 +304,7 @@ const PaymentPage = () => {
 
               <button 
                 onClick={handlePayment}
-                className="w-full mt-6 bg-primary1 hover:bg-primary2 text-white font-medium py-3 px-6 transition-colors rounded-lg"
+                className="w-full mt-6 bg-primary1 hover:bg-primary2 text-white font-medium py-3 px-6 transition-colors cursor-pointer"
               >
                 Proceed to Pay
               </button>

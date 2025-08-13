@@ -74,7 +74,7 @@ export default function FashionCategories() {
           <div 
             key={category.id} 
             className="text-center cursor-pointer group"
-            onClick={() => handleCategoryClick(category.slug)}
+            onClick={() => handleCategoryClick()}
           >
             <div className="aspect-[4/6] mb-4 group-hover:opacity-90 transition-opacity">
               <img
